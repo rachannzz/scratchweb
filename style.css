@@ -1,0 +1,33 @@
+
+.body{
+    display: flex;   
+}
+.navigation{
+   display: flex;
+   flex-direction: column;
+   background-color: #1f2937;
+
+}
+ul{
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 40px;   
+}
+li{
+    text-decoration: aliceblue;
+}
+li.logo{
+    
+    margin-left: 0; 
+    margin-right: auto;
+    border: 1px solid red; 
+    padding: 10px;
+}
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
