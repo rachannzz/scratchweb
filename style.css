@@ -1,11 +1,20 @@
-
-.body{
-    display: flex;   
+.html{
+    box-sizing: border-box;
 }
+.main{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
 .navigation{
    display: flex;
    flex-direction: column;
-   background-color: #1f2937;
+   background-color: red;
 
 }
 ul{
@@ -30,4 +39,57 @@ li.logo{
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
    
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    margin-top: 20px;
+    font-size: 40px;  
+    background-color: #1f2937; 
+    
+ 
+    
+}
+.seperating{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+ flex: 1;
+   
+}
+.seperating h1{
+    color: antiquewhite;
+   
+}
+.seperating p{
+    color: antiquewhite;
+}
+
+.sep{
+    display: flex;
+    background-color: #3882f6; 
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    align-self: flex-start;
+    
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+    }
+.end{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1f2937;  
 }
